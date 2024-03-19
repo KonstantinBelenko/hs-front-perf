@@ -5,17 +5,21 @@
   "name": "online-shop-website-template",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "lib": "lib"
   },
   "dependencies": {
+    "cssnano": "^6.1.0",
     "esbuild": "^0.19.12",
     "fsevents": "^2.3.3",
     "nanoid": "^3.3.7",
     "picocolors": "^1.0.0",
     "postcss": "^8.4.36",
     "rollup": "^4.13.0",
-    "source-map-js": "^1.1.0"
+    "source-map-js": "^1.1.0",
+    "terser": "^5.29.2",
+    "vite-plugin-imagemin": "^0.6.1"
   },
   "scripts": {
     "dev": "vite",
